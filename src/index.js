@@ -1,12 +1,21 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import Home from './home'; 
+import ButtonAppBar  from './ButtonAppBar';
+import reportWebVitals from './reportWebVitals'; 
+import Types from './Types';    
+ 
+
+
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
+  <React.StrictMode>  
+    <div>
+    <ButtonAppBar bottomGutter/> 
+    <Home/>    
+    </div>  
+
   </React.StrictMode>,
   document.getElementById('root')
 );

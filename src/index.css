@@ -10,4 +10,16 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+} 
+ 
+.flex-container {
+  display: flex;
+}
+
+.flex-child {
+  flex: 1;
+} 
+
+#container{
+  text-align: center;
 }
